@@ -4,11 +4,9 @@ import Project from "./project";
 
 
 const Projects = () => {
-
-
   
     return (
-      <div className="mt-10 p-2 pl-0 overflow-x-scroll">
+      <div className="mt-10 p-2 pl-0 overflow-x-scroll scrollbar-hidden">
         <Carousel>
           <CarouselContent className="flex items-center">
             {/*Project Folha de Rosto */}
@@ -32,7 +30,7 @@ const Projects = () => {
                   name: "Landing Page Cidades",
                   stacks: "Javascript, CSS",
                   about:
-                    "Uma Landing page sobre as cidades mais fantásticas do mundo",
+                    "Uma Landing page das cidades mais lindas do mundo",
                   url: "https://site-scroll.vercel.app/",
                 }}
               />
@@ -78,6 +76,17 @@ const Projects = () => {
                   stacks: "Javascript, CSS",
                   about: "Um site do salão juliana Rodrigues",
                   url: "https://site-juliana-eight.vercel.app/",
+                }}
+              />
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex flex-col gap-5">
+              <Project
+                project={{
+                  image: "/project-6.png",
+                  name: "Site Cafeteria",
+                  stacks: "Javascript, CSS",
+                  about: "Um site de uma cafeteria",
+                  url: "https://cafeteria-woad-pi.vercel.app/",
                 }}
               />
             </CarouselItem>

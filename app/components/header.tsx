@@ -22,6 +22,9 @@ const Header = () => {
               Home
             </li>
             <li className="border-2 border-transparent  hover:border-b-blue-500 hover:cursor-pointer">
+              Stacks
+            </li>
+            <li className="border-2 border-transparent  hover:border-b-blue-500 hover:cursor-pointer">
               About
             </li>
             <li className="border-2 border-transparent  hover:border-b-blue-500 hover:cursor-pointer">
@@ -36,7 +39,7 @@ const Header = () => {
           <SheetTrigger className="text-white md:hidden">
             <Menu size={40} />
           </SheetTrigger>
-          <SheetContent className="text-center border-none bg-blue-700 bg-opacity-55 text-white">
+          <SheetContent className="text-center bg-opacity-70 bg-gray-800 text-white">
             <SheetTitle className="text-white">Menu</SheetTitle>
             <ol className="space-y-4 mt-4">
               <li className="border-2 border-transparent hover:border-b-blue-500">

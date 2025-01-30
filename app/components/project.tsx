@@ -26,7 +26,7 @@ const Project = ({ project }: ProjectProps) => {
             className="relative"
           />
         </Link>
-        <Card className="bg-opacity-70 bg-gray-800 text-white py-2 w-96 md:w-80 ml-2">
+        <Card className="bg-opacity-70 bg-gray-800 text-white py-2 md:w-80 ml-2 h-[10rem]">
           <CardContent className="flex flex-col gap-2 p-3">
             <div className="flex gap-2">
               <h2>Projeto:</h2>

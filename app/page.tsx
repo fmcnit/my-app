@@ -1,6 +1,7 @@
 
 import About from "./components/about";
 import CardStacks from "./components/cards-stacks";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Principal from "./components/principal";
 import Projects from "./components/projects";
@@ -15,8 +16,12 @@ export default function Home() {
       </div>
 
       <CardStacks />
+      
       <About />
+
       <Projects />
+
+      <Footer/>
     </div>
   );
 }
