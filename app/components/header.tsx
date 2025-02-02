@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import Image from "next/image";
 import { Menu } from "lucide-react"
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import Link from "next/link";
 
 const Header = () => {
     return (
@@ -22,13 +23,13 @@ const Header = () => {
               Home
             </li>
             <li className="border-2 border-transparent  hover:border-b-blue-500 hover:cursor-pointer">
-              Stacks
+              <Link href={"#principal"}>Stacks</Link>
             </li>
             <li className="border-2 border-transparent  hover:border-b-blue-500 hover:cursor-pointer">
               About
             </li>
             <li className="border-2 border-transparent  hover:border-b-blue-500 hover:cursor-pointer">
-              Projects
+              <Link href={"#stacks"}>Projects</Link>
             </li>
             <li className="border-2 border-transparent  hover:border-b-blue-500 hover:cursor-pointer">
               Contact

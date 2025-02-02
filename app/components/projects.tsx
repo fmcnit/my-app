@@ -29,8 +29,7 @@ const Projects = () => {
                   image: "/project-1.png",
                   name: "Landing Page Cidades",
                   stacks: "Javascript, CSS",
-                  about:
-                    "Uma Landing page das cidades mais lindas do mundo",
+                  about: "Uma Landing page das cidades mais lindas do mundo",
                   url: "https://site-scroll.vercel.app/",
                 }}
               />
@@ -90,6 +89,44 @@ const Projects = () => {
                 }}
               />
             </CarouselItem>
+
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex flex-col gap-5">
+              <Project
+                project={{
+                  image: "/project-7.png",
+                  name: "Site Carros 3D",
+                  stacks: "Javascript, CSS",
+                  about: "Animações para exposição de carros",
+                  url: "https://site3d-chi.vercel.app/",
+                }}
+              />
+            </CarouselItem>
+
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex flex-col gap-5">
+              <Project
+                project={{
+                  image: "/project-8.png",
+                  name: "Site Carros 3D",
+                  stacks: "Javascript, CSS",
+                  about: "Animações para exposição de carros",
+                  url: "https://site3d-chi.vercel.app/",
+                }}
+              />
+            </CarouselItem>
+
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex flex-col gap-5">
+              <Project
+                project={{
+                  image: "/project-9.png",
+                  name: "Site Carros 3D",
+                  stacks: "Javascript, CSS",
+                  about: "Animações para exposição de carros",
+                  url: "https://site3d-chi.vercel.app/",
+                }}
+              />
+            </CarouselItem>
+
+         
           </CarouselContent>
         </Carousel>
       </div>

@@ -5,7 +5,7 @@ const Principal = () => {
 
 
     return (
-      <div className="h-screen">
+      <div className="h-screen" id="principal">
         <div className="relative flex">
             <div className="fixed -left-36 md:w-[32rem] md:left-0 rounded-b-full overflow-hidden">
               <Image

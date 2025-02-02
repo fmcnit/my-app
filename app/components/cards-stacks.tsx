@@ -7,7 +7,9 @@ const CardStacks = () => {
     
     return (
       <div className="w-full flex flex-col items-center gap-14 md:flex-row md:justify-end md:px-4 md:gap-8">
-        <Card className="bg-opacity-70 bg-gray-800 max-w-[330px] relative">
+        <Card
+          className="bg-opacity-70 bg-gray-800 max-w-[330px] relative"
+          id="stacks">
           <CardContent className="w-52 h-52 relative flex flex-col m-auto text-white">
             <div className="absolute -top-10 right-0 left-0 m-auto w-fit z-10">
               <Image
@@ -17,7 +19,7 @@ const CardStacks = () => {
                 src={"/javascript.svg"}
               />
             </div>
-            
+
             <div className="absolute -top-[7rem] right-0 left-0 m-auto w-fit z-0">
               <Image
                 width={320}

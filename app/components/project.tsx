@@ -23,7 +23,7 @@ const Project = ({ project }: ProjectProps) => {
             alt={project.name}
             width={500}
             height={500}
-            className="relative"
+            className="relative max-h-[201px]"
           />
         </Link>
         <Card className="bg-opacity-70 bg-gray-800 text-white py-2 md:w-80 ml-2 h-[10rem]">
